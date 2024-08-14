@@ -87,7 +87,7 @@ h1 {
     font-size: 80px;
     line-height: 70px;
 	/* color: #cc99ff; */
-    color: #0b172f;
+    color: #0a082c;
 }
 
 h4 {
@@ -95,7 +95,8 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    /* color: #0a082c; */
+    color: #959df5;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -107,7 +108,8 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    /* background: #0a082c; */
+    background: #959df5;
     top: 9px;
 }
 
@@ -303,7 +305,7 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fff;
+    color: #adb4ff;
     font-size: 11px;
     font-weight: bold;
 }
@@ -325,7 +327,7 @@ a:focus {
 a:hover {
     /* color:  #425BB5; */
     /* color: white; */
-    color: rgb(255, 226, 98);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -462,8 +464,14 @@ a.active {
 ==================================================*/
 
 #about {
-    padding: 200px 0 100px 0;
-    background: url(../img/about_bg_pink.jpg) no-repeat center;
+    padding: 100px 0 100px 0;
+    background: url(../img/my_experience_bg.jpg) no-repeat center;
+}
+
+.about-img-div{
+    /* padding: 100px 0 0 50px; */
+    padding: 50px 0 0 50px;
+    box-sizing: border-box;
 }
 
 @media (max-width:500px) {
@@ -574,11 +582,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color: #1e1f55;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #425BB5;
+    box-shadow: inset 40em 0 0 0 #bdbbec;
 }
 
 .timeline-event-copy {
@@ -613,7 +621,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425BB5;
+    background-color: #cac7f7;
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -634,8 +642,8 @@ a.active {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    background-color: #0096886e;
-    box-shadow: inset 0 0 0 0em #425BB5;
+    background-color: #050b24;
+    box-shadow: inset 0 0 0 0em #bdbbec;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -644,7 +652,7 @@ a.active {
 ==================================================*/
 #skills{
 	background:;
-	padding:50px;
+	padding: 100px 0;
 }
 .skill-box {
   width: 80%;
@@ -666,7 +674,7 @@ a.active {
 .skill-box > .skills-circle > ul > li {
   width: 150px;
   height: 150px;/*원크기조정가능*/
-  background-color: #7191c9;/*1.bar 채워지지않은 비워있는 color*/
+  background-color: #dadada;/*1.bar 채워지지않은 비워있는 color*/
   border-radius: 50%;
   position: relative;
   display: inline-block;
@@ -699,7 +707,7 @@ a.active {
   height: 100%;
   /* background: #B0DAB9;  */
   /*bar 채워지는 color*/
-  background: rgb(252, 252, 183);
+  background: rgb(15, 11, 71);
   clip: rect(0, 75px, 150px, 0);
 }
 
@@ -725,7 +733,7 @@ a.active {
 ==================================================*/
 
 #projects {
-    padding: 50px 0 60px;
+    padding: 100px 0;
 		background:#f8f8f8;
 }
 
