@@ -43,7 +43,7 @@
             _left.css({
               'clip': 'rect(0, 150px, 150px, 75px)',
               // 'background': '#B0DAB9'
-              'background': 'rgb(252, 252, 183)'
+              'background': 'rgb(15, 11, 71)'
             });
             return _left.animate({
               circle_rotate: deg
